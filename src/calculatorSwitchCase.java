@@ -20,8 +20,10 @@ public class calculatorSwitchCase {
                 break;
             case 2:
                 System.out.println("Çıkarma:" + (n1 - n2));
+                break;
             case 3:
                 System.out.println("Çarpma:" + (n1*n2));
+                break;
             case 4:
                 if (n2!=0 && n1!=0) {
                     System.out.println("Bölme:" + (n1/n2));
